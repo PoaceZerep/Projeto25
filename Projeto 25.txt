@@ -1,0 +1,17 @@
+s = "Olá, mundo!"
+print(s[0]) #imprime as letras 0, 2 e 6
+print(s[2])
+print(s[6])
+
+print(s[::2]) # Imprime os caracteres nos índices pares
+print(s[1::2]) # Imprime os caracteres nos índices ímpares
+
+print(s[::-1]) # função inverte as palavras 
+
+s1 = s.replace("mundo", "universo") # função troca as palavras
+
+print(s1)
+
+print(s.startswith("Olá")) # função verifica se a variavel comeca com a palavra ola
+
+print(s1.count("universo"))# funçao verifica quantas palavras "universo" estão na frase
